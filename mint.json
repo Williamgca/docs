@@ -2,8 +2,8 @@
   "$schema": "https://mintlify.com/schema.json",
   "name": "Infinity",
   "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
+    "dark": "/logo/wlogo.svg",
+    "light": "/logo/plogo.svg"
   },
   "favicon": "/favicon.svg",
   "colors": {
