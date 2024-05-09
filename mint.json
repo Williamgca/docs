@@ -28,18 +28,16 @@
   "tabs": [
     {
       "name": "Integrations",
-      "url": "integrations"
-    }
-  ],
-  "integrations": [
-    {
-      "group": "Channels",
-      "pages": [
-        "channels/square"
-      ]
+      "url": "Integrations"
     }
   ],
   "navigation": [
+    {
+      "group": "Channels",
+      "pages": [
+        "integrations/square"
+      ]
+    },
     {
       "group": "Get Started",
       "pages": [
