@@ -55,7 +55,7 @@
         "introduction",
         "quickstart",
         "development",
-        "Square"
+        "square"
       ]
     },
     {
@@ -67,7 +67,6 @@
         "essentials/settings",
         "essentials/navigation",
         "essentials/reusable-snippets",
-        "Square"
       ]
     },
     {
