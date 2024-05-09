@@ -31,13 +31,15 @@
       "url": "integrations"
     }
   ],
-  "navigation": [
+  "integrations": [
     {
       "group": "Channels",
       "pages": [
         "channels/square"
       ]
-    },
+    }
+  ],
+  "navigation": [
     {
       "group": "Get Started",
       "pages": [
