@@ -33,12 +33,17 @@
   ],
   "navigation": [
     {
+      "group": "Channels",
+      "pages": [
+        "square"
+      ]
+    },
+    {
       "group": "Get Started",
       "pages": [
         "introduction",
         "quickstart",
-        "development",
-        "square"
+        "development"
       ]
     },
     {
