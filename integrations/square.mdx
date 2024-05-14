@@ -16,4 +16,35 @@ With this in mind, let's understand how the setup process for this sales channel
 
 To connect your store in Square with your store in Infinity, the first step is to have a store created in this sales channel. In the following links, you can access the creation or login of your store in Square:
 
+<ul>
+    <li>If you currently do not have a store created in Square, enter the following link to create one quickly.</li>
+    <li>On the other hand, if you already have a store in Square, enter the following link to access your store.</li>
+</ul>
+
 Once you have a store in Square, we can move on to the next step to learn the credentials you need to make the connection between your store in Square and your store in Infinityss.
+
+<h2>Second step: Obtain your store's credentials</h2>
+
+To set up Square in Infinity, you only need four credentials from your store in Square (Access Token, Location ID, Physical Location ID, Tax ID). Below, we explain the steps to follow to obtain each of these fields correctly.
+
+<ol>
+    <li>Primarily, once you have your store created in Square, go to the following link to access the Square Dev page to correctly extract the 'Access Token' credential from your account.</li>
+    <li>Once in the Dashboard, the next step is to create the app through which you will establish the connection by selecting the '+' button.</li>
+    <li>You will see a popup window where you should name the app to be created; in this case, you can call it 'Infinity' and select 'Next'.</li>
+    <li>In the next step, you can manage the purpose of this connection; in this case, for Infinity, you should only select 'Manage a product catalog' and choose 'Next'.</li>
+    <li>In the following step, you can select the purpose of this app, whether for personal use or as a service. At this point, you can select the use that corresponds to your company.</li>
+    <li>After selecting 'Complete', your app will be correctly created, and you will be redirected to the data of this connection where you can obtain the API credentials of this connection.</li>
+    <li>To obtain the 'Access Token' for the configuration on our platform, you will find this credential in the 'Credentials' section of the left menu.</li>
+    <li>In this section, in the upper central part, you should change the mode from 'Sandbox' to 'Production,' as these are the credentials that really work for the connection.</li>
+    <li>With this, in the second field called 'Production Access token,' you will find the 'Access token' credential you will use in the configuration of Square on our platform.</li>
+    <li>The following credentials will be obtained from the main page of your store in Square, which you can access at the following link.</li>
+</ol>
+
+<h3>Before continuing with the extraction of the credentials, keep in mind the following:</h3>
+
+<p>In Infinity, thanks to Square's inventory management system, we implement two types of data connections: one to send inventory and product cost data from Infinity thanks to our connection with distributors to the products managed in Square, and another to receive cost and inventory data from Square in case your company handles physical locations and inventories for your store.</p>
+<p>For this, there are two credentials 'Location ID' and 'Physical location ID', being the first (Location ID), the 'virtual warehouse' of your products in Square, in charge of sending data from Infinity to Square, and the second (Physical location ID) the actual physical location of your store from which data from Square will be received into the inventory of your products in Infinity.</p>
+<p>Keep this in mind when setting up your locations in Square, as you will need these two locations previously created in your Square account, as although they are two different credentials in Infinity, you will obtain these credentials from Square from the ID of each location, which we will explain later.</p>
+<p>Thanks to this, you benefit from centralized management before any update in the inventories of your products automatically, whether with digital inventories with our integration with distributors, or with the physical inventories of your products in your store, all this in a centralized way in your products managed in Infinity.</p>
+
+<h3>With this clear, let's continue with the explanation to obtain the last three missing credentials for this configuration.</h3>
