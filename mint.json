@@ -71,6 +71,12 @@
         "integrations/channels/square",
         "integrations/channels/salesChannels"
       ]
+    },
+    {
+      "group": "Data sources",
+      "pages": [
+        "integrations/datasources/dataSources"
+      ]
     }
   ],
   "footerSocials": {
