@@ -35,7 +35,8 @@
     {
       "group": "Channels",
       "pages": [
-        "integrations/square"
+        "integrations/channels/square",
+        "integrations/channels/salesChannels"
       ]
     },
     {
@@ -72,6 +73,15 @@
       ]
     }
   ],
+  "Integrations": [
+    {
+    "group": "Channels",
+    "pages": [
+      "integrations/channels/square",
+      "integrations/channels/salesChannels"
+      ]
+    }
+    ],
   "footerSocials": {
     "x": "https://x.com/mintlify",
     "github": "https://github.com/mintlify",
