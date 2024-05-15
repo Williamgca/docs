@@ -33,11 +33,17 @@
   ],
   "navigation": [
     {
+      "group": "Infinity Overview",
+      "pages": [
+        "infinityOverview/introduction",
+        "infinityOverview/quickstart"
+      ]
+    },
+    {
       "group": "Getting started",
       "pages": [
-        "gettingStarted/introduction",
-        "gettingStarted/quickstart",
-        "gettingStarted/infinityOverview"
+        "gettingStarted/createAnAccount",
+        "gettingStarted/resetYourPassword"
       ]
     },
     {
