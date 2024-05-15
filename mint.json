@@ -35,15 +35,15 @@
     {
       "group": "Infinity Overview",
       "pages": [
-        "infinityOverview/introduction",
-        "infinityOverview/quickstart"
+        "documentation/infinityOverview/introduction",
+        "documentation/infinityOverview/quickstart"
       ]
     },
     {
       "group": "Getting started",
       "pages": [
-        "gettingStarted/createAnAccount",
-        "gettingStarted/resetYourPassword"
+        "documentation/gettingStarted/createAnAccount",
+        "documentation/gettingStarted/resetYourPassword"
       ]
     },
     {
