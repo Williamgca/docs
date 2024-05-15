@@ -2,10 +2,10 @@
   "$schema": "https://mintlify.com/schema.json",
   "name": "Infinity",
   "logo": {
-    "dark": "/logo/plogo.svg",
-    "light": "/logo/plogo.svg"
+    "dark": "images/logo/plogo.svg",
+    "light": "images/logo/plogo.svg"
   },
-  "favicon": "logo/wlogo.svg",
+  "favicon": "images/logo/wlogo.svg",
   "colors": {
     "primary": "#7367F0",
     "light": "#7367F0",
@@ -33,36 +33,11 @@
   ],
   "navigation": [
     {
-      "group": "Get Started",
+      "group": "Getting started",
       "pages": [
-        "introduction",
-        "quickstart",
-        "development"
-      ]
-    },
-    {
-      "group": "Essentials",
-      "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
-      ]
-    },
-    {
-      "group": "API Documentation",
-      "pages": [
-        "api-reference/introduction"
-      ]
-    },
-    {
-      "group": "Endpoint Examples",
-      "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        "gettingStarted/introduction",
+        "gettingStarted/quickstart",
+        "gettingStarted/development"
       ]
     },
     {
