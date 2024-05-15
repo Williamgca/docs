@@ -68,8 +68,8 @@
     {
       "group": "Channels",
       "pages": [
-        "integrations/channels/square",
-        "integrations/channels/salesChannels"
+        "integrations/channels/salesChannels",
+        "integrations/channels/square"
       ]
     },
     {
