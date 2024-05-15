@@ -1,0 +1,114 @@
+---
+title: 'Set up integration with Square'
+description: 'Guide to setting up Square as a sales channel.'
+---
+
+Integrating Square as a sales channel for your store in Infinity simplifies the creation of a website and the implementation of your e-commerce, as well as automatically synchronizing inventories and prices, reflecting changes in real time in your Square store. This connection provides efficient management, ensuring that all sales operations, both online and physical, are perfectly aligned and optimized.
+ 
+## What is Square?
+
+Square is an easy to use platform that offers advanced payment processing solutions and the creation of e-commerce websites. Known for its simplicity and efficiency, it allows businesses of any size to manage both physical and online sales on a single platform. Square facilitates the creation of online stores with tools that support adaptable design, inventory management, and secure payment options, optimizing the user experience and operational efficiency. Its integration of marketing and analytics tools helps maximize business visibility and growth.
+
+With this in mind, let's understand how the setup process for this sales channel works on our platform. Follow the steps below to correctly configure this setting:
+
+## First step: Access your store in Square
+
+To connect your store in [Square](https://squareup.com/us/en) with your store in Infinity, the first step is to have a store created in this sales channel. In the following links, you can access the creation or login of your store in Square:
+
+- If you currently do not have a store created in Square, enter the [following link](https://squareup.com/signup/en-US) to create one quickly.
+- On the other hand, if you already have a store in Square, enter the [following link](https://squareup.com/login?lang_code=en-us) to access your store.
+
+Once you have a store in Square, we can move on to the next step to learn the credentials you need to make the connection between your store in Square and your store in Infinityss.
+
+## Second step: Obtain your store's credentials
+
+To set up Square in Infinity, you only need four credentials from your store in Square (**Access Token, Location ID, Physical Location ID, Tax ID**). Below, we explain the steps to follow to obtain each of these fields correctly.
+
+1. Primarily, once you have your store created in Square, go to the following link to access the Square Dev page to correctly extract the **'Access Token'** credential from your account.
+![Image](/images/square_images/secondStep1.png)
+
+
+2. Once in the Dashboard, the next step is to create the app through which you will establish the connection by selecting the **'+'** button.
+![Image](/images/square_images/secondStep2.png)
+
+3. You will see a popup window where you should name the app to be created; in this case, you can call it **'Infinity'** and select **'Next'**.
+![Image](/images/square_images/secondStep3.png)
+
+4. In the next step, you can manage the purpose of this connection; in this case, for Infinity, you should only select **'Manage a product catalog'** and choose **'Next'**.
+![Image](/images/square_images/secondStep4.png)
+
+5. In the following step, you can select the purpose of this app, whether for personal use or as a service. At this point, you can select the use that corresponds to your company.
+![Image](/images/square_images/secondStep5.png)
+
+6. After selecting **'Complete'**, your app will be correctly created, and you will be redirected to the data of this connection where you can obtain the API credentials of this connection.
+![Image](/images/square_images/secondStep6.png)
+
+7. To obtain the **'Access Token'** for the configuration on our platform, you will find this credential in the **'Credentials'** section of the left menu.
+
+8. In this section, in the upper central part, you should change the mode from **'Sandbox'** to **'Production'**, as these are the credentials that really work for the connection.
+![Image](/images/square_images/secondStep8.png)
+
+9. With this, in the second field called **'Production Access token'**, you will find the **'Access token'** credential you will use in the configuration of Square on our platform.
+![Image](/images/square_images/secondStep9.png)
+
+10. The following credentials will be obtained from the main page of your store in Square, which you can access at the [following link](https://squareup.com/us/en).
+![Image](/images/square_images/secondStep10.png)
+
+### Considerations before continue
+
+Before continuing with the extraction of the credentials, keep in mind the following:
+
+In Infinity, thanks to Square's inventory management system, we implement two types of data connections: one to send inventory and product cost data from Infinity thanks to our connection with distributors to the products managed in Square, and another to receive cost and inventory data from Square in case your company handles physical locations and inventories for your store.
+
+For this, there are two credentials **'Location ID'** and **'Physical location ID'**, being the first (**Location ID**), the **'virtual warehouse'** of your products in Square, in charge of sending data from Infinity to Square, and the second (**Physical location ID**) the actual physical location of your store from which data from Square will be received into the inventory of your products in Infinity.
+
+Keep this in mind when setting up your locations in Square, as you will need these two locations previously created in your Square account, as although they are two different credentials in Infinity, you will obtain these credentials from Square from the ID of each location, which we will explain later.
+
+Thanks to this, you benefit from centralized management before any update in the inventories of your products automatically, whether with digital inventories with our integration with distributors, or with the physical inventories of your products in your store, all this in a centralized way in your products managed in Infinity.
+
+### Let's continue with the extraction
+
+With this clear, let's continue with the explanation to obtain the last three missing credentials for this configuration.
+
+1. Once in your account in Square, select your store in the upper right corner and enter the **'Account settings'** option.
+
+2. In your account settings, select **'Business information'** from the left menu.
+
+3. For both **'Location ID'** and **'Physical location ID,'** select **'Locations'** among the different options in **'Business information'**.
+![Image](/images/square_images/secondStep-3.png)
+
+4. Within your locations, you must click on the one you want to extract the ID from. Doing so will open the location settings and in its URL, after **'locations/'** you will have the ID of the location you will need for the configuration in Infinity.
+![Image](/images/square_images/secondStep-4.png)
+
+5. Remember to take into account what was previously explained and use the ID of your virtual location created for Infinity in **'Location ID'** and the ID of the physical location of your store in **'Physical location ID'**.
+![Image](/images/square_images/secondStep-5.png)
+
+6. Finally, to obtain the **'Tax ID'**, similarly in the **'Business information'** section of the left menu, go to the **'Sales taxes'** option, where you will find the tax settings defined for your store. If you have not created one, you can do so by entering that page.
+![Image](/images/square_images/secondStep-6.png)
+
+7. Having created a **'Sales taxes'**, click on it and the URL will update with the ID of this setting. This ID is the one you will use in the **'Tax ID'** field of the configuration of Square on our platform.
+![Image](/images/square_images/secondStep-7.png)
+![Image](/images/square_images/secondStep-7-2.png)
+
+With these four credentials, you will have everything you need to perform the integration of your store in Square with your store in Infinity. In the next step, we will explain how you can make this configuration on our platform.
+
+## Third step: Set up the connection in Infinity
+
+To configure this integration, you must access the channel administration page on our platform. To do this, enter the **'Channels'** option in the left menu of our platform.
+![Image](/images/square_images/thirdStep1.png)
+
+Once in this list, you must locate the integration with Square and select the **'Edit'** button to configure this sales channel in your store.
+![Image](/images/square_images/thirdStep2.png)
+
+Once on the configuration page of this sales channel, you must enter the credentials obtained from your store in Square and complete all the fields mentioned above for the setup on our platform and enable the connection on the first option called **'Enabled?'**.
+![Image](/images/square_images/thirdStep3.png)
+
+After completing all the fields you see in this configuration and saving the changes, you will have the connection between your store in Square and your products in Infinity correctly established.
+
+## Considerations
+
+Keep in mind that these connections have specific functionalities regarding the publication and update of your products' data in each sales channel, so we suggest you review our article **'Integrations with sales channels'** to correctly understand how these integrations work.
+
+## In conclusion
+
+By connecting Square with your store in Infinity, you simplify the integration process and significantly improve the management of inventories and prices of your products. This connection minimizes manual errors and also improves workflows, allowing for a more fluid and accurate operation.

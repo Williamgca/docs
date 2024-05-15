@@ -28,17 +28,10 @@
   "tabs": [
     {
       "name": "Integrations",
-      "url": "Integrations"
+      "url": "integrations"
     }
   ],
   "navigation": [
-    {
-      "group": "Channels",
-      "pages": [
-        "integrations/channels/square",
-        "integrations/channels/salesChannels"
-      ]
-    },
     {
       "group": "Get Started",
       "pages": [
@@ -71,17 +64,15 @@
         "api-reference/endpoint/create",
         "api-reference/endpoint/delete"
       ]
-    }
-  ],
-  "Integrations": [
+    },
     {
-    "group": "Channels",
-    "pages": [
-      "integrations/channels/square",
-      "integrations/channels/salesChannels"
+      "group": "Channels",
+      "pages": [
+        "integrations/channels/square",
+        "integrations/channels/salesChannels"
       ]
     }
-    ],
+  ],
   "footerSocials": {
     "x": "https://x.com/mintlify",
     "github": "https://github.com/mintlify",
