@@ -49,6 +49,20 @@
       ]
     },
     {
+      "group": "Administration",
+      "pages": [
+        "documentation/administration/createANewStore",
+        "documentation/administration/howDoRolesWork",
+        "documentation/administration/howSubscriptionsWork",
+        "documentation/administration/howToCreateRoles",
+        "documentation/administration/howToEditMyUserProfile",
+        "documentation/administration/inviteNewUsers",
+        "documentation/administration/managingMultiStores",
+        "documentation/administration/requestANewFeature",
+        "documentation/administration/userManagement"
+      ]
+    },
+    {
       "group": "Channels",
       "pages": [
         "integrations/channels/salesChannels",
