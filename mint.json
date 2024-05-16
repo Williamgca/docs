@@ -42,24 +42,24 @@
     {
       "group": "Getting started",
       "pages": [
-        "documentation/gettingStarted/createAnAccount",
-        "documentation/gettingStarted/resetYourPassword",
-        "documentation/gettingStarted/dashboardNavigation",
-        "documentation/gettingStarted/importProducts"
+        "documentation/gettingStarted/how-to-create-an-account",
+        "documentation/gettingStarted/how-to-reset-your-password",
+        "documentation/gettingStarted/dashboard-navigation",
+        "documentation/gettingStarted/how-to-import-products"
       ]
     },
     {
       "group": "Administration",
       "pages": [
-        "documentation/administration/createANewStore",
-        "documentation/administration/howDoRolesWork",
-        "documentation/administration/howSubscriptionsWork",
-        "documentation/administration/howToCreateRoles",
-        "documentation/administration/howToEditMyUserProfile",
-        "documentation/administration/inviteNewUsers",
-        "documentation/administration/managingMultiStores",
-        "documentation/administration/requestANewFeature",
-        "documentation/administration/userManagement"
+        "documentation/administration/how-subscriptions-work",
+        "documentation/administration/create-a-new-store",
+        "documentation/administration/managing-multi-stores",
+        "documentation/administration/how-to-edit-my-user-profile",
+        "documentation/administration/invite-new-users",
+        "documentation/administration/user-management",
+        "documentation/administration/how-do-roles-work",
+        "documentation/administration/how-to-create-roles",
+        "documentation/administration/how-to-request-a-new-feature"
       ]
     },
     {
