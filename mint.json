@@ -65,14 +65,14 @@
     {
       "group": "Channels",
       "pages": [
-        "integrations/channels/salesChannels",
-        "integrations/channels/square"
+        "integrations/channels/integrations-with-sales-channels",
+        "integrations/channels/set-up-integration-with-square"
       ]
     },
     {
       "group": "Data sources",
       "pages": [
-        "integrations/datasources/dataSources"
+        "integrations/datasources/integrations-with-data-sources"
       ]
     }
   ],
