@@ -43,7 +43,9 @@
       "group": "Getting started",
       "pages": [
         "documentation/gettingStarted/createAnAccount",
-        "documentation/gettingStarted/resetYourPassword"
+        "documentation/gettingStarted/resetYourPassword",
+        "documentation/gettingStarted/dashboardNavigation",
+        "documentation/gettingStarted/importProducts"
       ]
     },
     {
