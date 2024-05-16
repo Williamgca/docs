@@ -35,17 +35,17 @@
     {
       "group": "Infinity Overview",
       "pages": [
-        "documentation/infinityOverview/introduction",
-        "documentation/infinityOverview/quickstart"
+        "documentation/infinity-overview/introduction",
+        "documentation/infinity-overview/quickstart"
       ]
     },
     {
       "group": "Getting started",
       "pages": [
-        "documentation/gettingStarted/how-to-create-an-account",
-        "documentation/gettingStarted/how-to-reset-your-password",
-        "documentation/gettingStarted/dashboard-navigation",
-        "documentation/gettingStarted/how-to-import-products"
+        "documentation/getting-started/how-to-create-an-account",
+        "documentation/getting-started/how-to-reset-your-password",
+        "documentation/getting-started/dashboard-navigation",
+        "documentation/getting-started/how-to-import-products"
       ]
     },
     {
