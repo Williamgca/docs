@@ -52,13 +52,12 @@
       "group": "Administration",
       "pages": [
         "docs/administration/infinity-subscription",
-        "docs/administration/stores-creation",
-        "docs/administration/multi-stores-management",
+        "docs/administration/store-creation",
+        "docs/administration/multi-store-management",
         "docs/administration/invite-new-users",
         "docs/administration/users-management",
         "docs/administration/user-roles",
-        "docs/administration/user-roles-creation",
-        "docs/administration/request-a-new-feature"
+        "docs/administration/user-roles-creation"
       ]
     },
     {
