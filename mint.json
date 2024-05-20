@@ -33,33 +33,32 @@
   ],
   "navigation": [
     {
-      "group": "Infinity Overview",
+      "group": "Getting started",
       "pages": [
-        "documentation/infinity-overview/introduction",
-        "documentation/infinity-overview/quickstart"
+        "docs/getting-started/quickstart"
       ]
     },
     {
-      "group": "Getting started",
+      "group": "First steps",
       "pages": [
-        "documentation/getting-started/how-to-create-an-account",
-        "documentation/getting-started/how-to-reset-your-password",
-        "documentation/getting-started/dashboard-navigation",
-        "documentation/getting-started/how-to-import-products"
+        "docs/first-steps/account-creation",
+        "docs/first-steps/password-reset",
+        "docs/first-steps/dashboard-navigation",
+        "docs/first-steps/migrate-to-infinity"
       ]
     },
     {
       "group": "Administration",
       "pages": [
-        "documentation/administration/how-subscriptions-work",
-        "documentation/administration/create-a-new-store",
-        "documentation/administration/managing-multi-stores",
-        "documentation/administration/how-to-edit-my-user-profile",
-        "documentation/administration/invite-new-users",
-        "documentation/administration/user-management",
-        "documentation/administration/how-do-roles-work",
-        "documentation/administration/how-to-create-roles",
-        "documentation/administration/how-to-request-a-new-feature"
+        "docs/administration/infinity-subscription",
+        "docs/administration/stores-creation",
+        "docs/administration/multi-stores-management",
+        "docs/administration/edit-user-profile",
+        "docs/administration/invite-new-users",
+        "docs/administration/users-management",
+        "docs/administration/user-roles",
+        "docs/administration/user-roles-creation",
+        "docs/administration/request-a-new-feature"
       ]
     },
     {
