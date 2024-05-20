@@ -39,10 +39,16 @@
       ]
     },
     {
+      "group": "Account",
+      "pages": [
+        "docs/account/account-creation",
+        "docs/administration/edit-user-profile",
+        "docs/account/password-reset"
+      ]
+    },
+    {
       "group": "First steps",
       "pages": [
-        "docs/first-steps/account-creation",
-        "docs/first-steps/password-reset",
         "docs/first-steps/dashboard-navigation",
         "docs/first-steps/migrate-to-infinity"
       ]
@@ -53,7 +59,6 @@
         "docs/administration/infinity-subscription",
         "docs/administration/stores-creation",
         "docs/administration/multi-stores-management",
-        "docs/administration/edit-user-profile",
         "docs/administration/invite-new-users",
         "docs/administration/users-management",
         "docs/administration/user-roles",
