@@ -35,7 +35,9 @@
     {
       "group": "Getting started",
       "pages": [
-        "docs/getting-started/quickstart"
+        "docs/getting-started/quickstart",
+        "docs/getting-started/dashboard-navigation",
+        "docs/getting-started/migrate-to-infinity"
       ]
     },
     {
@@ -44,13 +46,6 @@
         "docs/account/account-creation",
         "docs/account/edit-user-profile",
         "docs/account/password-reset"
-      ]
-    },
-    {
-      "group": "First steps",
-      "pages": [
-        "docs/first-steps/dashboard-navigation",
-        "docs/first-steps/migrate-to-infinity"
       ]
     },
     {
