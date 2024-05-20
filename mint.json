@@ -42,7 +42,7 @@
       "group": "Account",
       "pages": [
         "docs/account/account-creation",
-        "docs/administration/edit-user-profile",
+        "docs/account/edit-user-profile",
         "docs/account/password-reset"
       ]
     },
